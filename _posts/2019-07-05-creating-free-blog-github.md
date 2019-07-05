@@ -2,7 +2,7 @@
 layout: post
 title:  Hosting your Blog for Free
 date:   2019-07-05 17:05:00 -0600
-image:  type-writer.jfif
+image:  type-writer.jpeg
 tags:   [Lifehacks, Blog, How-To]
 ---
 
