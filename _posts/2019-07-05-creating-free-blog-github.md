@@ -66,7 +66,7 @@ The posts you see on the page are all in the _posts folder. Go back to your gith
 
 Click on any of the posts and edit it like you did the _config.yml file. Once you commit it, github will take a few minutes to re-generate your website before you can see the changes reflected.
 
-Edit, delete or create posts in the _posts folder and see how it reacts on your website. 
+Edit, delete or create posts in the _posts folder and see how it reacts on your website. Keep in mind, I chose this template not only because it has a clean design but because the sample posts are actually quite helpful. Read them at least once before deleting. Or don't - up to you!
 
 There are many free templates out there and each is a little different so don't be afraid to expirement!
 
