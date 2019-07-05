@@ -61,6 +61,13 @@ Once you have done this your website will be done! Go ahead and open a new tab i
 
 ![]({{site.baseurl}}/img/free-blog/blog_example.png)
 
+The posts you see on the page are all in the _posts folder. Go back to your github repository and click on the code tab then click on the _posts folder. 
+![]({{site.baseurl}}/img/free-blog/posts.png)
+
+Click on any of the posts and edit it like you did the _config.yml file. Once you commit it, github will take a few minutes to re-generate your website before you can see the changes reflected.
+
+Edit, delete or create posts in the _posts folder and see how it reacts on your website. 
+
 There are many free templates out there and each is a little different so don't be afraid to expirement!
 
 I will be posting additional customizations such as a custom domain and how to locally edit your website from your computer later on. 
