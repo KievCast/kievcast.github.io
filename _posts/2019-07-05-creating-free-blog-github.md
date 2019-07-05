@@ -1,17 +1,20 @@
 ---
 layout: post
-title:  Free Blog Hosting
-date:   2019-06-20 16:04:00 -0600
+title:  Host your Blog for Free
+date:   2019-07-05 16:04:00 -0600
 image:  03.jpg
-tags:   [Lifehacks, Blog]
+tags:   [Lifehacks, Blog, Free]
 ---
-Unicorn vegan humblebrag whatever microdosing, yr pabst post-ironic chartreuse. IPhone irony fingerstache microdosing juice poutine. Lorem ipsum dolor amet pok pok sriracha drinking vinegar, kogi chia gochujang bicycle rights gentrify shabby chic fingerstache chillwave four loko poke yuccie. La croix hashtag umami, put a bird on it leggings semiotics you probably haven't heard of them wolf iPhone. Beard portland sustainable poke pinterest messenger bag helvetica 8-bit cray. Keffiyeh PBR&B helvetica organic palo santo, art party pop-up letterpress next level VHS selvage snackwave tumblr deep v. Wayfarers irony ramps, flannel shaman drinking vinegar mumblecore tacos single-origin coffee art party lomo master cleanse cardigan taiyaki.
 
-Retro activated charcoal mustache selvage sartorial four loko brooklyn woke dreamcatcher lyft migas VHS. Bitters celiac flannel schlitz aesthetic echo park polaroid. Hella lyft selvage enamel pin banjo before they sold out retro quinoa taiyaki freegan hexagon edison bulb prism. Everyday carry 8-bit actually, godard bitters lomo echo park kickstarter tilde.
+I've been wanting to start up a blog to keep track of my ideas and share a little bit back with the community who's helped me get to where I am. When I say community I don't mean a specific one but the internet as a whole. Going from helpdesk, sysadmin, networking guy and now as a security professional, I don't believe I would have been able to accomplish as much as I have without the amazing repository of knowledge known as the internet. So with this post I start yet another blog with which I'll humbly add to our ever-growing repository of knowledge, and what better way than to start than writing up how I was able to host this blog for free!? 
 
-Gluten-free bicycle rights kogi ramps chartreuse lyft. Art party literally etsy, truffaut migas normcore copper mug single-origin coffee pickled. Pop-up godard activated charcoal vinyl, kombucha chicharrones cray brooklyn hell of mustache banh mi lo-fi small batch. Ugh literally cred gluten-free. Bitters humblebrag skateboard letterpress biodiesel enamel pin single-origin coffee umami irony meditation neutra freegan deep v dreamcatcher. Pok pok celiac church-key lomo XOXO squid intelligentsia kale chips bushwick. Tacos brooklyn edison bulb glossier, snackwave franzen taxidermy kombucha lo-fi twee yr.
+From my experience the word free on the internet usally comes associated with a slew of ads in order to generate ad-revenue and offset the very real cost of hosting any type of data. While there are many cheap ways to host a website out there. Why pay for something that you can legitimately get for free? But before we go any further, I suppose I should lay out a few disclaimers - This instructional would work great for anybody who wants to host a simple web page that will be used for static websites such as blogs, landing pages, resumés, portfolios, proof of concept pages, etc... If you're needing to manage things such as e-commerce pages, custom forms for data gathering and smtp capabilites - that is outside the scope of this article and you'll most likely need something more robust than anything a 'free' host could provide. 
 
-![]({{site.baseurl}}/img/04.jpg)
+If you're part of the initiated and are panicking about the term 'static website' - NO I'm not going to force you to code your blog in pure HTML from the ground up. We're going to be using <a href="https://pages.github.com/">GitHub Pages</a> with Jekyll. Jekyll is a simple static site generator. Your posts will be in markup format which can be edited in any text editor. While you don't have the luxury of a full-blown CMS and wysiwyg like wordpress, you also don't have all of the bloat and insecurity that comes associated with most CMS. Meaning you don't have to constantly maintain and update that cms, plugins, and database to prevent malicious actors from taking over your website, trashing your reputation, blacklisting your domain, or running up hosting charges by using your web server as a staging ground for spam or as a C&C server.   
+
+![]({{site.baseurl}}/img/blog.jpg)
+
+Enough intro, 
 
 Typewriter jean shorts literally godard la croix. Put a bird on it wayfarers distillery taiyaki knausgaard +1, hella fixie. Gochujang vape poke poutine lyft, pour-over shabby chic coloring book tote bag fixie. Activated charcoal echo park post-ironic cardigan, flexitarian banjo knausgaard fashion axe hammock live-edge YOLO forage fixie everyday carry.
 
