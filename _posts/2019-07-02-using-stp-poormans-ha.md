@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  PVST+ - Poor Man's Networking HA 
+title:  PVST+ - A Poor Man's Networking HA 
 date:   2019-07-02 16:05:55 -0600
 image:  01.jpg
 tags:   Networking
