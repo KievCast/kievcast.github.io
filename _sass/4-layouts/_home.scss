@@ -49,7 +49,7 @@
 }
 
 .menu-list {
-  max-width: 750px;
+  max-width: 600px;
   width: 100%;
   margin: 5% auto 0;
   padding: 15px;
@@ -419,7 +419,7 @@
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 600px) {
   .nav-menu {
     position: relative;
     display: block;
