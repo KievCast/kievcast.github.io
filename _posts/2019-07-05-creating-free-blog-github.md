@@ -35,18 +35,25 @@ In order to get going quick we will be utilizing one of the many free templates 
 
 But for now don't be ashamed to get a little help of those that have come before us. Let's go ahead and utilize a clean free dark-theme [Jekyll Clean Dark](https://github.com/streetturtle/jekyll-clean-dark){:target="_blank"}. 
 On this page go ahead and click on fork
+
 ![]({{site.baseurl}}/img/free-blog/fork-it.png)
+
 It'll take a moment to copy the project into your github account. 
+
 ![]({{site.baseurl}}/img/free-blog/forking.png)
 
 Once it is done forking, let's rename the repository by clicking on settings. 
+
 ![]({{site.baseurl}}/img/free-blog/settings.png)
+
 Go ahead and rename it to **username.github.io** replace **"username"** with your own username. 
 
 ![]({{site.baseurl}}/img/free-blog/code-configyml.png)
+
 Now click on the **code** tab and then click on **_config.yml** 
 
 ![]({{site.baseurl}}/img/free-blog/edit.png)
+
 Click on the pencil to edit the file, and we're going to edit a few lines. 
 {% highlight console %}
 * Line 3 type in the name of your blog 
@@ -55,6 +62,7 @@ Click on the pencil to edit the file, and we're going to edit a few lines.
 {% endhighlight %}
 Feel free to change any of the other fields, as they are self explanatory. If you want to play it safe, leave as is. 
 When you are done delete the last line which is blank then scroll down click on commit changes. 
+
 ![]({{site.baseurl}}/img/free-blog/commit.png)
 
 Once you have done this your website will be done! Go ahead and open a new tab in your browser and go to https://username.github.io
@@ -62,6 +70,7 @@ Once you have done this your website will be done! Go ahead and open a new tab i
 ![]({{site.baseurl}}/img/free-blog/blog_example.png)
 
 The posts you see on the page are all in the _posts folder. Go back to your github repository and click on the code tab then click on the _posts folder. 
+
 ![]({{site.baseurl}}/img/free-blog/posts.png)
 
 Click on any of the posts and edit it like you did the _config.yml file. Once you commit it, github will take a few minutes to re-generate your website before you can see the changes reflected.

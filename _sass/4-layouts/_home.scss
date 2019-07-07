@@ -192,7 +192,8 @@
     position: relative;
     display: flex;
     align-items: center;
-    min-height: 450px;
+    min-height: 360px;
+	max-height: 420px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
