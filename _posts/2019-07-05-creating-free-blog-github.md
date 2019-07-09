@@ -15,9 +15,9 @@ From my experience the word free on the internet usally comes associated with a 
 This instructional would work great for anybody who wants to host a simple web page that will be used for static websites such as blogs, landing pages, resumés, portfolios, proof of concept pages, etc... If you're needing to manage things such as e-commerce pages, custom forms for data gathering and smtp capabilites - that is outside the scope of this article and you'll most likely need something more robust than anything a 'free' host could provide. 
 
 If you are beginning to panic about the term 'static website' - NO I'm not going to force you to code your blog in pure HTML from the ground up. We're going to be using <a href="https://pages.github.com/">GitHub Pages</a> with Jekyll. Jekyll is a simple static site generator. Your posts will be in markup format which can be edited in any text editor. While you won't have the luxury of a full-blown CMS and wysiwyg editor like wordpress, you also won't have all of the bloat and security issues that come associated with most CMS, meaning you won't have to constantly maintain and update that cms, plugins, and database to prevent malicious actors from taking over your website. Which can lead to trashing your reputation, blacklisting your domain, or running up hosting charges by using your web server as a staging ground for e-mail spam or as a C&C server.   
-
+{:refdef: style="text-align: center;"}
 ![]({{site.baseurl}}/img/blog.jpg)
-
+{: refdef}
 Enough Talk, lets get to the good stuff. 
 
 # How to: 
@@ -26,7 +26,7 @@ Recap: We will be hosting on github pages, which will issue you a website name s
 ### Pre-requisites
 ##### GitHub Account
 * If you don't have one go [create one](https://github.com/join){:target="_blank"}, it's free!
-	* Remember your default site url will be https://YOURGITHUBUSERNAME.github.io if you have a custom domain you'll be using this won't matter, otherwise keep this in mind when creating your account. 
+	* Remember your default site url will be <div style="display: inline">https://GITHUBUSERNAME.github.io</div> if you have a custom domain you'll be using this won't matter, otherwise keep this in mind when creating your account. 
 
 ## Step 1 - Creating our Website
 > We are like dwarfs sitting on the shoulders of giants. We see more, and things that are more distant, than they did, not because our sight is superior or because we are taller than they, but because they raise us up, and by their great stature add to ours.
@@ -35,24 +35,33 @@ In order to get going quick we will be utilizing one of the many free templates 
 
 But for now don't be ashamed to get a little help of those that have come before us. Let's go ahead and utilize a clean free dark-theme [Jekyll Clean Dark](https://github.com/streetturtle/jekyll-clean-dark){:target="_blank"}. 
 On this page go ahead and click on fork
-
+{:refdef: style="text-align: center;"}
 ![]({{site.baseurl}}/img/free-blog/fork-it.png)
+{: refdef}
 
 It'll take a moment to copy the project into your github account. 
 
+{:refdef: style="text-align: center;"}
 ![]({{site.baseurl}}/img/free-blog/forking.png)
+{: refdef}
 
 Once it is done forking, let's rename the repository by clicking on settings. 
 
+{:refdef: style="text-align: center;"}
 ![]({{site.baseurl}}/img/free-blog/settings.png)
+{: refdef}
 
 Go ahead and rename it to **username.github.io** replace **"username"** with your own username. 
 
+{:refdef: style="text-align: center;"}
 ![]({{site.baseurl}}/img/free-blog/code-configyml.png)
+{: refdef}
 
 Now click on the **code** tab and then click on **_config.yml** 
 
+{:refdef: style="text-align: center;"}
 ![]({{site.baseurl}}/img/free-blog/edit.png)
+{: refdef}
 
 Click on the pencil to edit the file, and we're going to edit a few lines. 
 {% highlight console %}
@@ -63,15 +72,21 @@ Click on the pencil to edit the file, and we're going to edit a few lines.
 Feel free to change any of the other fields, as they are self explanatory. If you want to play it safe, leave as is. 
 When you are done delete the last line which is blank then scroll down click on commit changes. 
 
+{:refdef: style="text-align: center;"}
 ![]({{site.baseurl}}/img/free-blog/commit.png)
+{: refdef}
 
 Once you have done this your website will be done! Go ahead and open a new tab in your browser and go to https://username.github.io
 
+{:refdef: style="text-align: center;"}
 ![]({{site.baseurl}}/img/free-blog/blog_example.png)
+{: refdef}
 
 The posts you see on the page are all in the _posts folder. Go back to your github repository and click on the code tab then click on the _posts folder. 
 
+{:refdef: style="text-align: center;"}
 ![]({{site.baseurl}}/img/free-blog/posts.png)
+{: refdef}
 
 Click on any of the posts and edit it like you did the _config.yml file. Once you commit it, github will take a few minutes to re-generate your website before you can see the changes reflected.
 
