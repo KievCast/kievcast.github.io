@@ -1,0 +1,10 @@
+## Step 2 - Hosting Locally: 
+First let's get our computer ready to host a website. Since GitHub pages run on Jekyll let's go ahead and install it so we can design our website without having to deal with commits and wait times that GitHub will place on us until we have to. 
+
+* Download and Install a Ruby+Devkit version from [https://rubyinstaller.org/downloads](https://rubyinstaller.org/downloads){:target="_blank"}. Use default options for installation.
+
+* Run the ridk install step on the last stage of the installation wizard. This is needed for installing gems with native extensions. You can find addtional information regarding this in the RubyInstaller Documentation
+
+* Close out any command prompt windows that may have been left open and run a new cmd line prompt. Install Jekyll and Bundler via this command:{% highlight console %}gem install jekyll bundler{% endhighlight console %}
+
+* Check if Jekyll installed properly with the command: {% highlight console %}jekyll -v{% endhighlight console %}
