@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Leveraging Spanning Tree as A Poor Man's Redundancy - PVST+
-date:   2019-07-10 15:19:25 -0600
-image:  01.jpg
+date:   2019-07-09 15:19:25 -0600
+image:  SDN-2.jpg
 tags:   [Networking, Cisco]
 ---
 
@@ -16,7 +16,7 @@ Let's take a look at the following diagram, which depicts something you would re
 ![]({{site.baseurl}}/img/stp-ha/organicgrowth.png)
 {: refdef}
 
-* By just adding a couple of more cables and without redesigning the network completely, we can add a bit of redundancy. 
+> By just adding a few cables and without redesigning the network completely, we can add a bit of redundancy. 
 
 {:refdef: style="text-align: center;"}
 ![]({{site.baseurl}}/img/stp-ha/switchha.png)
@@ -54,9 +54,21 @@ Detecting a change in the topology, STP recalculates, the port that was original
 
 ### Enter PVST+
 
-The difference with PVST+ is in the initial calculation, when the loop free topology is built, redundant ports facing upstream to the root bridge will be an alternate port. This means that it knows that the alternate port is a way to the root bridge, so should the primary link fail, it doesn't need to recalculate - it can immediately jump to the forwarding state and push traffic as normal, instead of being forced to run through all of the phases again.
+The difference with PVST+ is in the initial calculation, when the loop free topology is built, redundant ports facing upstream to the root bridge will be an alternate port. This means that it knows that the alternate port is a way to the root bridge, so should the primary link fail, it doesn't need to recalculate - it can immediately jump to the forwarding state and push traffic as normal, instead of being forced to run through all of the phases again. If you would like to change the active and alternate port then all you need to is to run the following command on the interface you do not want to be primary: 
+
+{% highlight cisco %}
+#spanning-tree [ vlan vlan-id ] cost 900
+
+##To reset cost back to default 
+
+no spanning-tree [ vlan vlan-id ] cost
+{% endhighlight %}
 
 The good thing, is that out of the box recent switches come with PVST+ enabled and you'll only run into the aformentioned STP problems in switches that do not support it, if they are older switches that need to be configured in PVST+ or if you are running switches that don't support it. 
+
+## Taking it even further!
+You could implement additional things such as [EtherChannel](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/12-2_55_se/configuration/guide/3750xscg/swethchl.html){:target="_blank"} for additional throughput and redundancy, [Switch Clustering](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/12-2_55_se/configuration/guide/scg_2960/swclus.html){:target="_blank"} for ease of management, or something that will greatly benefit this type of scenario - [Port Fast & BPDU Guard](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4000/8-2glx/configuration/guide/stp_enha.html){:target="_blank"}. 
+But I'll leave that as an excercise for the viewer. If you don't have the gear to test, I suggest you check out [eve-ng](https://www.eve-ng.net/){:target="_blank"} a great network simulator that is community driven and free to use. 
 
 Feel free to leave questions or comments, if I'm completely wrong about anything let me know!
 

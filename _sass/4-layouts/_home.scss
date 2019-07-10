@@ -208,6 +208,13 @@
   .article-content-first {
     padding: 20px;
     color: $text;
+	.featarticle {
+	margin: 30px;
+  background-color: #000;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
     .article-tag {
       .tag {
         font-size: 12px;
