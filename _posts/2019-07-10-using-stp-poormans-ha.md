@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Leveraging Spanning Tree as A Poor Man's Redundancy - PVST+
-date:   2019-07-09 15:19:25 -0600
+date:   2019-07-10 15:19:25 -0600
 image:  SDN-2.jpg
 tags:   [Networking, Cisco]
 ---
