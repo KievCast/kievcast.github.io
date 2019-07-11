@@ -2,7 +2,7 @@
 layout: post
 title:  Configuring Firefox to use the Windows Certificate Store via GPO
 date:   2019-07-11 8:30:30 -0600
-image:  05.jpg
+image:  firefox.jpg
 tags:   [sys-admin]
 ---
 
