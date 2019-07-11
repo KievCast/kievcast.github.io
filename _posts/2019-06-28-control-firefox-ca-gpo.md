@@ -54,5 +54,5 @@ Firefox relies on those two files to set the preferences. So any way you can dis
 
 Until next time! - Kevin
 
-[windowsstore.cfg](){:target="_blank"}
-[local-settings.js](){:target="_blank"}
+[windowsstore.cfg](){:target="_blank"}  
+[local-settings.js](){:target="_blank"}  
