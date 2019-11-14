@@ -22,10 +22,6 @@ Let's take a look at the following diagram, which depicts something you would re
 
 Now we could just leave it at that and let STP automagically figure itself out by letting it kill the network loop and finding a route for network traffic to flow through. But this is your time to shine by adding a bit of polish to this impromptu redundancy. 
 
-## Taking it a step further
-
-Now we could just leave it at that and let STP automagically figure itself out by letting it kill the network loop and finding a route for network traffic to flow through. But this is your time to shine by adding a bit of polish to this impromptu redundancy.
-
 ## Taking it a step further  
 Before we start, we need to understand how the switches automagically choose which path to take. Switches are not routers, and as such, they don't care where your data is coming from or what path it needs to take to get to its destination.
 
