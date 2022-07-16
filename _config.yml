@@ -10,9 +10,9 @@ author-avatar: 09.jpg
 
 #-------------------------------
 # Contact links
-github: https://github.com/KievCast/adhocsec
+github:
 twitter: https://twitter.com/kievcast
-instagram: https://www.instagram.com/kievcast
+instagram:
 pinterest:
 disqus-identifier: adhocsec
 instafeed: false
